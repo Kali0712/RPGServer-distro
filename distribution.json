@@ -1,0 +1,2702 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "RPGServer-1.20.1",
+      "name": "탱커전공의 RPG서버",
+      "description": "RPGServer Running Minecraft 1.20.1 (Forge v47.3.0)",
+      "icon": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/img.png",
+      "version": "1.0.0",
+      "address": "125.138.213.252",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": true,
+      "autoconnect": true,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.3.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "d295c4a25914cc6486c2e501ef432b18",
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.3.0/lowcodelanguage-1.20.1-47.3.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.3.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16542,
+                "MD5": "826cb4d525749099af9ecb33b732fb84",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/versions/1.20.1-forge-47.3.0/1.20.1-forge-47.3.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118685,
+                "MD5": "2ef1c9adb09cc3592e5e7185c90570c9",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.3.0/fmlcore-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16516,
+                "MD5": "f457a3acdf187aa53ca5cbac9a951fcf",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.3.0/javafmllanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.3.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "09464464e54df9838666d62cf151c2c0",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.3.0/mclanguage-1.20.1-47.3.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2753075,
+                "MD5": "4804c269e3b593655a9526743f455ef8",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.3.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4792900,
+                "MD5": "505bc8230f0e393e853739df4e71da99",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/forge/1.20.1-47.3.0/forge-1.20.1-47.3.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 125428,
+                "MD5": "3957b18bf02a62edcb6726d074b90b08",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/ow2/asm/asm/9.7/asm-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73426,
+                "MD5": "53a46610df6a8dbc4ff85b8fd4cdea66",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "ea5cad3e0cbd2520688e4b0b5c4218e7",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 93784,
+                "MD5": "e7d6e20888e6fd99605f4c5fe1dfa8b0",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/ow2/asm/asm-util/9.7/asm-util-9.7.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 34776,
+                "MD5": "910ac9c691023f1a9ff33c413ae9fbf6",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/ow2/asm/asm-analysis/9.7/asm-analysis-9.7.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.1.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 24124,
+                "MD5": "4b4fe7e512819804660d621bf11c7381",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/coremods/5.1.6/coremods-5.1.6.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.3",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167288,
+                "MD5": "91e98c20afa1090c344229ce28b4c53f",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 264538,
+                "MD5": "cad68c5d61009b7e94fac7150f3f1dcf",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.3.0/fmlloader-1.20.1-47.3.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.3.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170830,
+                "MD5": "572320060e2c3105df15da32091de640",
+                "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.3.0/fmlearlydisplay-1.20.1-47.3.0.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.ncpbails:alexsdelight:1.5@jar",
+          "name": "Alex's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 55398,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/alexsdelight-1.5.jar",
+            "MD5": "b969e136e1f9a70c42dd102ed8359b40"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.22.8@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26055355,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/alexsmobs-1.22.8.jar",
+            "MD5": "0ad246393c7f9849df1e3e0af7f28872"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.0.3@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 85328184,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar",
+            "MD5": "a1ccab8ee80137ffc3ff449b116d0953"
+          }
+        },
+        {
+          "id": "elocindev.animation_overhaul:animation_overhaul:1.3.1@jar",
+          "name": "Animation Overhaul",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270915,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Animation_Overhaul-forge-1.20.x-1.3.1.jar",
+            "MD5": "0e016f6094a766eb5b82c0586343f46f"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "net.mcreator:aquaculturedelight:1.0.0@jar",
+          "name": "Aquaculture Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101228,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/aquaculture_delight_1.0.0_forge_1.20.1.jar",
+            "MD5": "d34013de56ec48d2923bb398b6d18e11"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:2.5.2@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601194,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Aquaculture-1.20.1-2.5.2.jar",
+            "MD5": "857dc4f379d52f75fab2ad816709e502"
+          }
+        },
+        {
+          "id": "generated.forgemod:archers:1.2.5+1.20.1@jar",
+          "name": "Archers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1025656,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/archers-1.2.5+1.20.1.jar",
+            "MD5": "27e4504ea0bec385fa5bf412b839291c"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.darkhax:attributefix:21.0.4@jar",
+          "name": "AttributeFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19471,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/AttributeFix-Forge-1.20.1-21.0.4.jar",
+            "MD5": "e8fb517833e21335106e9d4d1a39ecd4"
+          }
+        },
+        {
+          "id": "mod.azure:azurelibarmor:2.0.10@jar",
+          "name": "AzureLib Armor",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 413665,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/azurelibarmor-neo-1.20.1-2.0.10.jar",
+            "MD5": "b6abc553221059ebfcef35040a104c57"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.6@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373582,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.6-all.jar",
+            "MD5": "3810eb5667b2e0e3f9b948bbc1db0350"
+          }
+        },
+        {
+          "id": "net.bettercombat:bettercombat:1.8.6+1.20.1@jar",
+          "name": "Better Combat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1050118,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/bettercombat-forge-1.8.6+1.20.1.jar",
+            "MD5": "28f4682af86e8bdee7b808fa0adbdf81"
+          }
+        },
+        {
+          "id": "net.mcreator.brazillegends:brazil_legends:1.0.0@jar",
+          "name": "Brazil Legends",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1258808,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/brazil_legends-1.0.0-forge-1.20.1.jar",
+            "MD5": "dd5ef5b535a4057a0578dd5d1274c3e9"
+          }
+        },
+        {
+          "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
+          "name": "Caelus API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 40125,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/caelus-forge-3.2.0+1.20.1.jar",
+            "MD5": "e37854c44b1849b753afc4a205f31b46"
+          }
+        },
+        {
+          "id": "moe.caramel.chat:caramelchat:1.1.1@jar",
+          "name": "CaramelChat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 133706,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/caramelChat-mc1.20.1-forge-1.1.1.jar",
+            "MD5": "b1ca66afa0362f3adad1b5760b46335a"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.5.6@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3180586,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/citadel-2.5.6-1.20.1.jar",
+            "MD5": "aee523c8e06404f9e7d1373b25158c8a"
+          }
+        },
+        {
+          "id": "me.shedaniel.clothconfig:cloth_config:11.1.136@jar",
+          "name": "Cloth Config v10 API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1181413,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/cloth-config-11.1.136-forge.jar",
+            "MD5": "ca5de5acbcb4a30c010aa6953bd7ef53"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "net.combatroll:combatroll:1.3.3+1.20.1@jar",
+          "name": "Combat Roll",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 217962,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/combatroll-forge-1.3.3+1.20.1.jar",
+            "MD5": "ad3316d461ca579585df7507ac789d85"
+          }
+        },
+        {
+          "id": "fuzs.completionistsindex:completionistsindex:8.0.0@jar",
+          "name": "Completionist's Index",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 86781,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/CompletionistsIndex-v8.0.0-1.20.1-Forge.jar",
+            "MD5": "026e4f2e761da8879ea57809de73c7d8"
+          }
+        },
+        {
+          "id": "generated.forgemod:connector:1.0.0-beta.45+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4680145,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Connector-1.0.0-beta.45+1.20.1.jar",
+            "MD5": "c1bb644b86a0231f7b51f486ea8bab0b"
+          }
+        },
+        {
+          "id": "dev.su5ed.sinytra:connectorextras:1.11.2+1.20.1@jar",
+          "name": "Connector Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182464,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ConnectorExtras-1.11.2+1.20.1.jar",
+            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:16.0.6@jar",
+          "name": "CookingForBlockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 815676,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/cookingforblockheads-forge-1.20.1-16.0.6.jar",
+            "MD5": "30393a7bbd9bf85e11360db14cd13e27"
+          }
+        },
+        {
+          "id": "cn.mcmod:corn_delight:1.0.4-1.20.1@jar",
+          "name": "Corn Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 142501,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/corn_delight-1.0.4-1.20.1.jar",
+            "MD5": "a42ed2de00253c4df6d1989493e5d138"
+          }
+        },
+        {
+          "id": "alabaster.crabbersdelight:crabbersdelight:1.1.7@jar",
+          "name": "Crabber's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 371100,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/CrabbersDelight-1.20.1-1.1.7.jar",
+            "MD5": "4c1a6e7420513d117db3c73a4d465066"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.11.33@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1114431,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/CreativeCore_FORGE_v2.11.33_mc1.20.1.jar",
+            "MD5": "aa4428ca4f0d4412f202161dfac07d73"
+          }
+        },
+        {
+          "id": "com.ncpbails:culturaldelights:0.16.1@jar",
+          "name": "Cultural Delights",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242274,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/culturaldelights-0.16.1.jar",
+            "MD5": "2f231f3c930cabd419fedcf23caab8ca"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.9.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382970,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/curios-forge-5.9.1+1.20.1.jar",
+            "MD5": "c4bef497fe84a0140652e43b267bd6ee"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:dummmmmmy:1.20-1.9.0@jar",
+          "name": "MmmMmmMmmmmm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 339369,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/dummmmmmy-1.20-1.9.0.jar",
+            "MD5": "32e4633801acad3e229883581f0bf6c1"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.28+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1316946,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/embeddium-0.3.28+mc1.20.1.jar",
+            "MD5": "832b5f9a12f38bae289b0da1d99a4482"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.2+1.11.8+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3041071,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/fabric-api-0.92.2+1.11.8+1.20.1.jar",
+            "MD5": "7217481b8e9f40ac27273c1b5df0feb3"
+          }
+        },
+        {
+          "id": "xyz.apex.forge.fantasyfurniture.core:fantasyfurniture:9.0.0@jar",
+          "name": "Fantasy's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3202951,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/fantasyfurniture-1.20.1-9.0.0.jar",
+            "MD5": "0712007756c04d20100121c31510d346"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-1.2.4@jar",
+          "name": "Farmer's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2915349,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/FarmersDelight-1.20.1-1.2.4.jar",
+            "MD5": "5b6bee961b278a3edd6e3935b061fbaa"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "dev.xkmc.fruitsdelight.init:fruitsdelight:1.0.11@jar",
+          "name": "Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1842997,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/fruitsdelight-1.0.11.jar",
+            "MD5": "69da84e69696e4b8cb07a1b0f7749b0b"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.4.7@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991110,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.4.7.jar",
+            "MD5": "84bc00493b180b13fa3bab48dff9d2d8"
+          }
+        },
+        {
+          "id": "com.starfish_studios:hamsters:1.20.1-1.0.3@jar",
+          "name": "Hamsters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439448,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/hamsters-forge-1.0.3-1.20.1.jar",
+            "MD5": "02b3f3a37e2a07b356982c51572ed4d6"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.13-1.20.1-beta-4@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21767038,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/iceandfire-2.1.13-1.20.1-beta-4.jar",
+            "MD5": "18ebf4cd486496eed354fd973e5e74d8"
+          }
+        },
+        {
+          "id": "cpw.mods:inventorysorter:23.0.1@jar",
+          "name": "Simple Inventory Sorter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 52148,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/inventorysorter-1.20.1-23.0.1.jar",
+            "MD5": "2adaeb7ef5ca7bc39024e536c22168a4"
+          }
+        },
+        {
+          "id": "daripher.itemproduction:itemproductionlib:1.0.2a@jar",
+          "name": "Item Production Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 171785,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ItemProductionLib-1.20.1-1.0.2a-all.jar",
+            "MD5": "e4cb83cd8b61bf181d55ea1540a73a1c"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.9.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 545779,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Jade-1.20.1-forge-11.9.2.jar",
+            "MD5": "6ed433e54fb6c83868ef317368f449f3"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.11.0.43@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1319245,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/jei-1.20.1-forge-15.11.0.43.jar",
+            "MD5": "0b7d92fcfca615f6f5d91c3cdc8be7d0"
+          }
+        },
+        {
+          "id": "generated.forgemod:jewelry:1.3.7+1.20.1@jar",
+          "name": "Jewelry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 641972,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Jewelry-1.3.7+1.20.1.jar",
+            "MD5": "d564e95d8e7c05d2129e59cd64997502"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.1@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160219,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/journeymap-1.20.1-5.10.1-forge.jar",
+            "MD5": "dddc978902ed8416be39cfebdff7c22d"
+          }
+        },
+        {
+          "id": "jeresources:jeresources:1.4.0.247@jar",
+          "name": "Just Enough Resources",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276231,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/JustEnoughResources-1.20.1-1.4.0.247.jar",
+            "MD5": "bd7166a2e9361ef5e8b616edfa2028f4"
+          }
+        },
+        {
+          "id": "noobanidus.mods:lootr:0.7.34.87@jar",
+          "name": "Lootr",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 346406,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/lootr-forge-1.20-0.7.34.87.jar",
+            "MD5": "b18a759ac0ba0ff034667643b77eca09"
+          }
+        },
+        {
+          "id": "net.darkhax:maxhealthfix:12.0.3@jar",
+          "name": "MaxHealthFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10782,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/MaxHealthFix-Forge-1.20.1-12.0.3.jar",
+            "MD5": "94e96ed9ff363570bbcb1b9b229e1c31"
+          }
+        },
+        {
+          "id": "com.mcwbridges.kikoz:mcwbridges:3.0.0@jar",
+          "name": "Macaw's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 677705,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-bridges-3.0.0-mc1.20.1forge.jar",
+            "MD5": "27a5798467fc0799eab2505bb6a8f041"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.1@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1202279,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-doors-1.1.1forge-mc1.20.1.jar",
+            "MD5": "70a4d52ca95ecd57bcbb146e9c6950ce"
+          }
+        },
+        {
+          "id": "com.mcwfences.kikoz:mcwfences:1.1.2@jar",
+          "name": "Macaw's Fences and Walls",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522886,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-fences-1.1.2-mc1.20.1forge.jar",
+            "MD5": "729a8ce749bb6deff288ea1791ff9602"
+          }
+        },
+        {
+          "id": "com.mcwfurnitures.kikoz:mcwfurnitures:3.3.0@jar",
+          "name": "Macaw's Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1882792,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-furniture-3.3.0-mc1.20.1forge.jar",
+            "MD5": "f22230d8f84190aef6e62ca95e5da136"
+          }
+        },
+        {
+          "id": "com.mcwlights.kikoz:mcwlights:1.1.0@jar",
+          "name": "Macaw's Lights and Lamps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517513,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-lights-1.1.0-mc1.20.1forge.jar",
+            "MD5": "539aa2ab27253c1053236e06b82374df"
+          }
+        },
+        {
+          "id": "com.mcwroofs.kikoz:mcwroofs:2.3.1@jar",
+          "name": "Macaw's Roofs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1837373,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-roofs-2.3.1-mc1.20.1forge.jar",
+            "MD5": "cacee547c4f32b57b0f238d68d4ddc2b"
+          }
+        },
+        {
+          "id": "com.mcwtrpdoors.kikoz:mcwtrpdoors:1.1.3@jar",
+          "name": "Macaw's Trapdoors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 674687,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-trapdoors-1.1.3-mc1.20.1forge.jar",
+            "MD5": "3caced7ea133ba8c51bfc309ba91df82"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:2.3.0@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1309586,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mcw-windows-2.3.0-mc1.20.1forge.jar",
+            "MD5": "82f6f7c58030345ddb6efa0b2ded97fd"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.19.4+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 778504,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/modernfix-forge-5.19.4+mc1.20.1.jar",
+            "MD5": "359e779ab4f91fa48f1b1aab0dfb0821"
+          }
+        },
+        {
+          "id": "net.mcreator.mokelswitchboss:mokels_witch_boss:1.0.0@jar",
+          "name": "Mokels witch boss",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3701927,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mokels_witch_boss-1.0-forge-1.20.1.jar",
+            "MD5": "48bcc4f906b027604af6a8cc690f5245"
+          }
+        },
+        {
+          "id": "net.mcreator.mokelsrpgtwo:mokels_rpg_two:3.0@jar",
+          "name": "Mokels RPG two",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1665914,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Mokels%20RPG%202%203.1.jar",
+            "MD5": "1d7a984146d1ba1f904a2742977f9bfb"
+          }
+        },
+        {
+          "id": "com.nitespring:monsterplus:1.0@jar",
+          "name": "Monster Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 256092,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/MonsterPlus-Forge1.20.1-v1.1.6.1.jar",
+            "MD5": "3378780e94bf5ef8c3e4bff146e26fc0"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.13.0@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1184294,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/moonlight-1.20-2.13.0-forge.jar",
+            "MD5": "2935dcddbffd804ee26c4d19f7192db1"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.6.4@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15089229,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mowziesmobs-1.6.5.jar",
+            "MD5": "b971bfa53fbd696f928811ff640c6f28"
+          }
+        },
+        {
+          "id": "cn.mcmod_mmf.mmlib:mysterious_mountain_lib:1.4.7-1.20.1@jar",
+          "name": "Mysterious Mountain Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 290014,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/mysterious_mountain_lib-1.4.7-1.20.1.jar",
+            "MD5": "99c86e3a17cce9bd7f7a26b2aed8e4e8"
+          }
+        },
+        {
+          "id": "elocindev.necronomicon:necronomicon:1.6.0@jar",
+          "name": "Necronomicon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 33251,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Necronomicon-Forge-1.6.0+1.20.1.jar",
+            "MD5": "a1f1433ea551925436e6b170ac2ff619"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.7.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2831148,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/optionalon/oculus-mc1.20.1-1.7.0.jar",
+            "MD5": "45b96133bb46cc61dd9778bd4fca741d"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "net.mcreator.overweightlivestock:overweight_animals:1.0.2@jar",
+          "name": "Overweight Animals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 220088,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/OverweightAnimals-1.20.1-V-1.0.2.jar",
+            "MD5": "842b5abc4481ee978b3eb1c1764a0720"
+          }
+        },
+        {
+          "id": "generated.forgemod:paladins:1.3.1+1.20.1@jar",
+          "name": "Paladins",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2520694,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/paladins-1.3.1+1.20.1.jar",
+            "MD5": "46f161228cc63cd2c46090ea621003e6"
+          }
+        },
+        {
+          "id": "daripher.skilltree:skilltree:0.6.11@jar",
+          "name": "Passive Skill Tree",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2268285,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/PassiveSkillTree-1.20.1-BETA-0.6.11-all.jar",
+            "MD5": "770153c3d99d82715d78a591f0e80a11"
+          }
+        },
+        {
+          "id": "dev.kosmx.playeranim:playeranimator:1.0.2-rc1+1.20@jar",
+          "name": "Player Animator",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 181437,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+            "MD5": "46f8554181d4d240075ea4919d01fd01"
+          }
+        },
+        {
+          "id": "com.link:plushies:1.4.0@jar",
+          "name": "Plushie Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 690959,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/plushies-1.4.0-forge.jar",
+            "MD5": "dbee0e9ed66540c6205eb88eeb25d74b"
+          }
+        },
+        {
+          "id": "com.illusivesoulworks:polymorph:0.49.5+1.20.1@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 298759,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/polymorph-forge-0.49.5+1.20.1.jar",
+            "MD5": "50b704c0f2c18db908ce99d628889a9a"
+          }
+        },
+        {
+          "id": "eu.ha3:presencefootsteps:1.20.1-1.9.1-beta.1@jar",
+          "name": "Presence Footsteps (Forge)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7080698,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/PresenceFootsteps-1.20.1-1.9.1-beta.1.jar",
+            "MD5": "e42d774ced61f8c62c58f3111aa5e3f5"
+          }
+        },
+        {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.24@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1002383,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/PuzzlesLib-v8.1.24-1.20.1-Forge.jar",
+            "MD5": "31d7aea97858a0faa01f35a0c1071614"
+          }
+        },
+        {
+          "id": "net.qualityequipment:quality_equipment:1.6@jar",
+          "name": "Quality Equipment",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 139530,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/quality_equipment-1.6-forge_neoforge-1.20.1.jar",
+            "MD5": "d5f934b5a2c0e5e25214b4988011e635"
+          }
+        },
+        {
+          "id": "generated.forgemod:ranged_weapon_api:1.1.4+1.20.1@jar",
+          "name": "Ranged_weapon_api",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 114936,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ranged_weapon_api-1.1.4+1.20.1.jar",
+            "MD5": "3a7797f55299d2de2aa7ce9698264779"
+          }
+        },
+        {
+          "id": "generated.forgemod:rogues:1.1.0+1.20.1@jar",
+          "name": "Rogues",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1007218,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/rogues-1.1.0+1.20.1.jar",
+            "MD5": "92264a3a1258cdbd5b362f091d20fe09"
+          }
+        },
+        {
+          "id": "generated.forgemod:runes:0.9.13+1.20.1@jar",
+          "name": "Runes",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242139,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/runes-0.9.13+1.20.1.jar",
+            "MD5": "9421182fa45686ae55b60e49722d7125"
+          }
+        },
+        {
+          "id": "com.abdelaziz:saturn:0.1.3@jar",
+          "name": "Saturn",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92319,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/saturn-mc1.20.1-0.1.3.jar",
+            "MD5": "56a9a1cc126425b04acc5f8bd7ed67f1"
+          }
+        },
+        {
+          "id": "generated.forgemod:scout:2.0.4+1.20.1@jar",
+          "name": "Scout",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 169248,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Scout-2.0.4+1.20.1.jar",
+            "MD5": "88442e05e6712ea7242f1a56c4df23f7"
+          }
+        },
+        {
+          "id": "tfar.shippingbin:shippingbin:4@jar",
+          "name": "ShippingBin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 164832,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ShippingBin-forge-1.20.1-4.jar",
+            "MD5": "f4ce7d52aee2207981f3219877df4f82"
+          }
+        },
+        {
+          "id": "bl4ckscor3.mod:sit:1.3.5@jar",
+          "name": "Sit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14510,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/sit-1.20.1-1.3.5.jar",
+            "MD5": "87f16ae5de8125e49f3740a45b3fc1c7"
+          }
+        },
+        {
+          "id": "com.sonicether.soundphysics:sound_physics_remastered:1.20.1-1.4.5@jar",
+          "name": "Sound Physics Remastered",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 196564,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/sound-physics-remastered-forge-1.20.1-1.4.5.jar",
+            "MD5": "e819065ae0a3d034c7804e2b2e16a45f"
+          }
+        },
+        {
+          "id": "generated.forgemod:spell_engine:0.15.11+1.20.1@jar",
+          "name": "Spell_engine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1460857,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/spell_engine-0.15.11+1.20.1.jar",
+            "MD5": "6879e4ce29ad46721b39be85239236f9"
+          }
+        },
+        {
+          "id": "generated.forgemod:spell_power:0.12.0+1.20.1@jar",
+          "name": "Spell_power",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 184963,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/spell_power-0.12.0+1.20.1.jar",
+            "MD5": "3f4446e824c9bd45506e639e5aad55b4"
+          }
+        },
+        {
+          "id": "tax.taknax:taxbb:1.1.0@jar",
+          "name": "TaxBigBoss",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91189,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/TaxBigBoss+M.1.20.1+ForM.1.1.0.jar",
+            "MD5": "faecb238c91b4256df76995692f915e9"
+          }
+        },
+        {
+          "id": "net.mcreator:terramity:0.9.5@jar",
+          "name": "Terramity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 23254458,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/terramity-0.9.5-forge-1.20.1.jar",
+            "MD5": "72a52bdd268474bcfc36249149c66f6f"
+          }
+        },
+        {
+          "id": "ht.treechop:treechop:0.19.0@jar",
+          "name": "HT's TreeChop",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 517225,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/TreeChop-1.20.1-forge-0.19.0-fixed.jar",
+            "MD5": "e178293a133747657f802688b8c63d27"
+          }
+        },
+        {
+          "id": "generated.forgemod:trinkets:3.7.2@jar",
+          "name": "Trinkets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 238532,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/trinkets-3.7.2.jar",
+            "MD5": "c010ccc2015e5b1f3cb1994694ecc512"
+          }
+        },
+        {
+          "id": "generated.forgemod:urlmusicdiscs:1.2.0+1.20.1@jar",
+          "name": "Urlmusicdiscs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 525725,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/urlmusicdiscs-1.2.0+1.20.1.jar",
+            "MD5": "3962eb378fe5d0e0d7e02988f4a35d36"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.3@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 482947,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/waystones-forge-1.20-14.1.3.jar",
+            "MD5": "4a640d709a01443c4d2809c7283c2401"
+          }
+        },
+        {
+          "id": "fr.shohqapik:w2pets:1.0@jar",
+          "name": "Waystones Teleport Pets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 119264,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/WaystonesTeleportPets-1.20-1.20.1--1.2.jar",
+            "MD5": "ce4bbfff531c30681c061df8b0c28efd"
+          }
+        },
+        {
+          "id": "net.wurstclient.zoom:wi_zoom:1.5-MC1.20.1-Forge@jar",
+          "name": "WI Zoom",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141897,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/WI-Zoom-1.5-MC1.20.1-Forge.jar",
+            "MD5": "754b287265cb26821883f2afcab701ae"
+          }
+        },
+        {
+          "id": "generated.forgemod:wizards:1.3.0+1.20.1@jar",
+          "name": "Wizards",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2877001,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/wizards-1.3.0+1.20.1.jar",
+            "MD5": "6ef52353decf222b007ae1b18342e116"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 152418,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar",
+            "MD5": "2b156a472e2657b39dc462f9878baa68",
+            "path": ".connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 272946,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "017626bdf5eaf2de4be17581f3429d99",
+            "path": ".connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 14047,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar",
+            "MD5": "add082ba9081ccacfcc65e075d06af8a",
+            "path": ".connector/archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/archers-1.2.5+1.20.1$TinyConfig-2.3.2_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1030090,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "64c60fe967c7ade6d9949fb62fcfd2ad",
+            "path": ".connector/archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "9edcc97a1474c9e768c541d93e1496e7",
+            "path": ".connector/archers-1.2.5+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21505,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+            "MD5": "35954b0027be1f3939d228778608fcd5",
+            "path": ".connector/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+            "MD5": "d9dec2b3b7f9e1d6aa46ceb3b3b794f4",
+            "path": ".connector/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 157146,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "e4dbede0de2cb1dd7529526c2f5d6dcc",
+            "path": ".connector/Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "05097fea825dc08c5301978da19718de",
+            "path": ".connector/Death_Knights-0.3.1beta-MC1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+          "name": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 21505,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar",
+            "MD5": "25db376fb9d8b4c59508c9ccb30a2f9b",
+            "path": ".connector/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+          "name": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input",
+            "MD5": "d9dec2b3b7f9e1d6aa46ceb3b3b794f4",
+            "path": ".connector/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 167292,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "67365d5ee8a6abf347dcbea54d39b50f",
+            "path": ".connector/Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "7605d866309ff251524005fa28a53d9e",
+            "path": ".connector/Death_Knights-0.3.5beta+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 645617,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "596ae30d705f2b1ec00ad108d2e507f0",
+            "path": ".connector/Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "a01f06043ff3d5f88d8b8a39ad727980",
+            "path": ".connector/Jewelry-1.3.7+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar",
+          "name": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19409,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar",
+            "MD5": "3646ef99a7334af0a57637a0b9d4bfaa",
+            "path": ".connector/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar.input",
+          "name": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar.input",
+            "MD5": "62491be5a011f64776fe32b043007709",
+            "path": ".connector/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar",
+          "name": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45203,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar",
+            "MD5": "f823b5e046581464f2c3630a0a18ff80",
+            "path": ".connector/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar.input",
+          "name": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar.input",
+            "MD5": "e6b416319e492ae0cb0313305d0d70e9",
+            "path": ".connector/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2525220,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "21aa1721791d64a8f21967770ae256f6",
+            "path": ".connector/paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "1a58b526d95e230f52b584cabcabc680",
+            "path": ".connector/paladins-1.3.1+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 117364,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "02cf1baa4ae11cc93d3bac5651804ad4",
+            "path": ".connector/ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "c6bfd82baddf82dd8b6d42b26ef68a3f",
+            "path": ".connector/ranged_weapon_api-1.1.4+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1011190,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "a7119cf89c2946c39634be88bca6090c",
+            "path": ".connector/rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "54b416fbc7f692446c60deaea99ab0af",
+            "path": ".connector/rogues-1.1.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 244987,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "9907e64e0de151e9eddae66eec235759",
+            "path": ".connector/runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "ee5783a9c320bfbff001387815c6374c",
+            "path": ".connector/runes-0.9.13+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43026,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "884153466cd1b243d0fedf7a5313dff6",
+            "path": ".connector/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "7e2f9bab98b0a8fac2aed75f119d0f08",
+            "path": ".connector/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18880,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "057d947da281b63b1869b42dd7dccabc",
+            "path": ".connector/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "ffba10d2571cc86d67c3b25791d1676c",
+            "path": ".connector/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 173688,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "ee6de90a8fd25f5cbf7d4a52130cfe51",
+            "path": ".connector/Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "084757cfe0ef930ccf613182867a7fa6",
+            "path": ".connector/Scout-2.0.4+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1474162,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "8be293eabb48d7ac7993a23310400a48",
+            "path": ".connector/spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "c960fe3282d15021756009f50e1d9b22",
+            "path": ".connector/spell_engine-0.15.11+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 187662,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "bcd868fa48141679f50ff46bb1edaefc",
+            "path": ".connector/spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "3defd468a66c2d207cef4d50d69d13dc",
+            "path": ".connector/spell_power-0.12.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 246689,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar",
+            "MD5": "c1927a05eed107e33288f7fab69a876f",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar.input",
+            "MD5": "265e74df2b2658e3a3778e579c4b687b",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$ranged-weapon-api-1.1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271058,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+            "MD5": "8c2d058d7f6aceab59adcf244cd144cc",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "name": "archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$structure-pool-api-1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/archers-1.2.5+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19529,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+            "MD5": "98189cb7f117c677cc2a4a074c5533b5",
+            "path": ".connector/temp/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+            "MD5": "d9dec2b3b7f9e1d6aa46ceb3b3b794f4",
+            "path": ".connector/temp/Death_Knights-0.3.1beta-MC1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/Death_Knights-0.3.1beta-MC1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+          "name": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 19529,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar",
+            "MD5": "98189cb7f117c677cc2a4a074c5533b5",
+            "path": ".connector/temp/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+          "name": "Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input",
+            "MD5": "d9dec2b3b7f9e1d6aa46ceb3b3b794f4",
+            "path": ".connector/temp/Death_Knights-0.3.5beta+1.20.1$mixinsquared-fabric-0.1.2-beta.5.jar.input"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/Death_Knights-0.3.5beta+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "name": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271058,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+            "MD5": "8c2d058d7f6aceab59adcf244cd144cc",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "name": "Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$structure-pool-api-1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/Jewelry-1.3.7+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar",
+          "name": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18827,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar",
+            "MD5": "85ac59ab09023aafa91c1de23012b0de",
+            "path": ".connector/temp/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar.input",
+          "name": "lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar.input",
+            "MD5": "62491be5a011f64776fe32b043007709",
+            "path": ".connector/temp/lambdynamiclights-2.3.2+1.20.1$pridelib-1.2.0+1.19.4.jar.input"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar",
+          "name": "lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar",
+          "type": "File",
+          "artifact": {
+            "size": 190081,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar",
+            "MD5": "1ebe7a8a39f7dd896cd43e9210c69ee4",
+            "path": ".connector/temp/lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar"
+          }
+        },
+        {
+          "id": "lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar.input",
+          "name": "lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar.input",
+            "MD5": "3bcd6938edaef8c3b9014d863bcdd2e6",
+            "path": ".connector/temp/lambdynamiclights-2.3.2+1.20.1$spruceui-5.0.0+1.20.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar",
+          "name": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43327,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar",
+            "MD5": "6e0211a9d63f5dfa7f8bed8bcc31005d",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar.input",
+          "name": "paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar.input",
+            "MD5": "e6b416319e492ae0cb0313305d0d70e9",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$shield-api-1.0.0+1.20.1-fabric.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "name": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271058,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+            "MD5": "8c2d058d7f6aceab59adcf244cd144cc",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "name": "paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$structure-pool-api-1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/paladins-1.3.1+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "name": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271058,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+            "MD5": "8c2d058d7f6aceab59adcf244cd144cc",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "name": "rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/rogues-1.1.0+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar",
+          "name": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 41658,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar",
+            "MD5": "d33dbe40070533d40966e28a5fdf9f6d",
+            "path": ".connector/temp/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar.input",
+          "name": "Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar.input",
+            "MD5": "7e2f9bab98b0a8fac2aed75f119d0f08",
+            "path": ".connector/temp/Scout-2.0.4+1.20.1$lib39-core-1.5.0-experimental6.1+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar",
+          "name": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17139,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar",
+            "MD5": "12430ec56eb5b57f3a3f69874be335b1",
+            "path": ".connector/temp/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar"
+          }
+        },
+        {
+          "id": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar.input",
+          "name": "Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar.input",
+            "MD5": "ffba10d2571cc86d67c3b25791d1676c",
+            "path": ".connector/temp/Scout-2.0.4+1.20.1$lib39-dessicant-1.5.0-experimental6.1+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/spell_engine-0.15.11+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/spell_power-0.11.0+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/spell_power-0.12.0+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-base-5.2.0.jar",
+          "name": "trinkets-3.7.2$cardinal-components-base-5.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 64638,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/trinkets-3.7.2$cardinal-components-base-5.2.0.jar",
+            "MD5": "e99448c06e290aa0b916992b433c3626",
+            "path": ".connector/temp/trinkets-3.7.2$cardinal-components-base-5.2.0.jar"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-base-5.2.0.jar.input",
+          "name": "trinkets-3.7.2$cardinal-components-base-5.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/trinkets-3.7.2$cardinal-components-base-5.2.0.jar.input",
+            "MD5": "6cef2535f67303566529285defc92e4f",
+            "path": ".connector/temp/trinkets-3.7.2$cardinal-components-base-5.2.0.jar.input"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-entity-5.2.0.jar",
+          "name": "trinkets-3.7.2$cardinal-components-entity-5.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 41269,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/trinkets-3.7.2$cardinal-components-entity-5.2.0.jar",
+            "MD5": "af30fed5e27d556149e3dabdd1f3d52a",
+            "path": ".connector/temp/trinkets-3.7.2$cardinal-components-entity-5.2.0.jar"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-entity-5.2.0.jar.input",
+          "name": "trinkets-3.7.2$cardinal-components-entity-5.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/trinkets-3.7.2$cardinal-components-entity-5.2.0.jar.input",
+            "MD5": "fc5b16f28189bd5f5ee5357ae7ac5795",
+            "path": ".connector/temp/trinkets-3.7.2$cardinal-components-entity-5.2.0.jar.input"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 289190,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar",
+            "MD5": "f781f930f8c55eb8982006f38111bace",
+            "path": ".connector/temp/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar.input",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar.input",
+            "MD5": "8b8d76afc3895e6c002dd821ad7c76b6",
+            "path": ".connector/temp/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1.jar.input"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 210265,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar",
+            "MD5": "0412e5563571320ca9e5b4013f3e0fa7",
+            "path": ".connector/temp/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar.input",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar.input",
+            "MD5": "75b1f1970ba269c14bec9f7e7f1f0f08",
+            "path": ".connector/temp/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5.jar.input"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "name": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 148135,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar",
+            "MD5": "4660df7b545e5b969ccf9630ac9bca21",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "name": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input",
+            "MD5": "845204b9d6590379e950bc0370d69fa5",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1$mixinextras-fabric-0.2.0.jar.input"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "name": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 271058,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar",
+            "MD5": "8c2d058d7f6aceab59adcf244cd144cc",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "name": "wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input",
+            "MD5": "144f5e4976a1299429fd2a376213995e",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$structure-pool-api-1.0+1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar",
+          "name": "wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13020,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar",
+            "MD5": "7db9d530e71e69973319e4b9b832f8a6",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "name": "wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/temp/wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar.input",
+            "MD5": "aa382368a8127502177caac2b08f4c5c",
+            "path": ".connector/temp/wizards-1.3.0+1.20.1$TinyConfig-2.3.2.jar.input"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar",
+          "name": "trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 65200,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar",
+            "MD5": "f9a314276bf83a48fd4dfc6316d4e863",
+            "path": ".connector/trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar.input",
+          "name": "trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar.input",
+            "MD5": "6cef2535f67303566529285defc92e4f",
+            "path": ".connector/trinkets-3.7.2$cardinal-components-base-5.2.0_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar",
+          "name": "trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 42264,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar",
+            "MD5": "3eaf16c3fd4ac94fe6e612df275b9794",
+            "path": ".connector/trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar.input",
+          "name": "trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar.input",
+            "MD5": "fc5b16f28189bd5f5ee5357ae7ac5795",
+            "path": ".connector/trinkets-3.7.2$cardinal-components-entity-5.2.0_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2_mapped_srg_1.20.1.jar",
+          "name": "trinkets-3.7.2_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 240321,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2_mapped_srg_1.20.1.jar",
+            "MD5": "ef7e7b6e55b1010a80c8935a506fd0da",
+            "path": ".connector/trinkets-3.7.2_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "trinkets-3.7.2_mapped_srg_1.20.1.jar.input",
+          "name": "trinkets-3.7.2_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/trinkets-3.7.2_mapped_srg_1.20.1.jar.input",
+            "MD5": "5678e3ccdf89251e81ecdc8ccb8a528c",
+            "path": ".connector/trinkets-3.7.2_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 295951,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar",
+            "MD5": "8b3c66c44d2d957fd8f574280ad44a1a",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar.input",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "8b8d76afc3895e6c002dd821ad7c76b6",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1$gson-2.10.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 215672,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar",
+            "MD5": "04580230c0117592469378bc77de2f28",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar.input",
+          "name": "urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar.input",
+            "MD5": "75b1f1970ba269c14bec9f7e7f1f0f08",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1$zip4j-2.11.5_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 528283,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "38025e992f4b1db767598b31981e0415",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "71aca1e25a3d0d3653894e18ca7cfce2",
+            "path": ".connector/urlmusicdiscs-1.2.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar",
+          "name": "wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2880490,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar",
+            "MD5": "35d3216ad727bebc7428ce629fd8691e",
+            "path": ".connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "name": "wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 102,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input",
+            "MD5": "7af78c9777b38ddfbe409dc02dd52a2c",
+            "path": ".connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "ComplementaryShaders_v4.7.2.zip",
+          "name": "ComplementaryShaders_v4.7.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 5981342,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/shaderpacks/ComplementaryShaders_v4.7.2.zip",
+            "MD5": "1060876823fc75290c3050d856a809af",
+            "path": "shaderpacks/ComplementaryShaders_v4.7.2.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
