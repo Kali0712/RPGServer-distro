@@ -2706,16 +2706,6 @@
           }
         },
         {
-          "id": "generated.library:fabric:api-0.92.2+1.11.8+1.20.1@jar",
-          "name": "fabric",
-          "type": "Library",
-          "artifact": {
-            "size": 3041071,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/libraries/fabric-api-0.92.2+1.11.8+1.20.1.jar",
-            "MD5": "7217481b8e9f40ac27273c1b5df0feb3"
-          }
-        },
-        {
           "id": "ComplementaryShaders_v4.7.2.zip",
           "name": "ComplementaryShaders_v4.7.2.zip",
           "type": "File",
