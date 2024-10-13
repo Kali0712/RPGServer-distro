@@ -12,7 +12,7 @@
       "name": "탱커전공의 RPG서버",
       "description": "RPGServer Running Minecraft 1.20.1 (Forge v47.3.0)",
       "icon": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/img.png",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "address": "125.138.213.252",
       "minecraftVersion": "1.20.1",
       "discord": {
@@ -1290,9 +1290,9 @@
           "name": "Terramity",
           "type": "ForgeMod",
           "artifact": {
-            "size": 23254458,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/terramity-0.9.5-forge-1.20.1.jar",
-            "MD5": "72a52bdd268474bcfc36249149c66f6f"
+            "size": 23324079,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/terramity-0.9.5-forge-1.20.1_korean.jar",
+            "MD5": "afa56aac206802f3f1bad2b583bb2a84"
           }
         },
         {
@@ -2683,6 +2683,17 @@
             "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/.connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input",
             "MD5": "7af78c9777b38ddfbe409dc02dd52a2c",
             "path": ".connector/wizards-1.3.0+1.20.1_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "Bare Bones - Flux Enhanced 1.20.zip",
+          "name": "Bare Bones - Flux Enhanced 1.20.zip",
+          "type": "File",
+          "artifact": {
+            "size": 2787212,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/files/resourcepacks/Bare%20Bones%20-%20Flux%20Enhanced%201.20.zip",
+            "MD5": "970ceebf5f244ec2b713d1dbef9256fe",
+            "path": "resourcepacks/Bare Bones - Flux Enhanced 1.20.zip"
           }
         },
         {
