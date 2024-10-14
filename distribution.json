@@ -433,6 +433,26 @@
           ]
         },
         {
+          "id": "generated.forgemod:connector:1.0.0-beta.45+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4680145,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Connector-1.0.0-beta.45+1.20.1.jar",
+            "MD5": "c1bb644b86a0231f7b51f486ea8bab0b"
+          }
+        },
+        {
+          "id": "dev.su5ed.sinytra:connectorextras:1.11.2+1.20.1@jar",
+          "name": "Connector Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 182464,
+            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ConnectorExtras-1.11.2+1.20.1.jar",
+            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7"
+          }
+        },
+        {
           "id": "com.ncpbails:alexsdelight:1.5@jar",
           "name": "Alex's Delight",
           "type": "ForgeMod",
@@ -640,26 +660,6 @@
             "size": 86781,
             "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/CompletionistsIndex-v8.0.0-1.20.1-Forge.jar",
             "MD5": "026e4f2e761da8879ea57809de73c7d8"
-          }
-        },
-        {
-          "id": "generated.forgemod:connector:1.0.0-beta.45+1.20.1@jar",
-          "name": "Connector",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4680145,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Connector-1.0.0-beta.45+1.20.1.jar",
-            "MD5": "c1bb644b86a0231f7b51f486ea8bab0b"
-          }
-        },
-        {
-          "id": "dev.su5ed.sinytra:connectorextras:1.11.2+1.20.1@jar",
-          "name": "Connector Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182464,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ConnectorExtras-1.11.2+1.20.1.jar",
-            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7"
           }
         },
         {
