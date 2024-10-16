@@ -12,7 +12,7 @@
       "name": "탱커전공의 RPG서버",
       "description": "RPGServer Running Minecraft 1.20.1 (Forge v47.2.1)",
       "icon": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/img.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "125.138.213.252",
       "minecraftVersion": "1.20.1",
       "discord": {
