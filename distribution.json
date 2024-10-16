@@ -663,26 +663,6 @@
           }
         },
         {
-          "id": "generated.forgemod:connector:1.0.0-beta.45+1.20.1@jar",
-          "name": "Connector",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 4680145,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/Connector-1.0.0-beta.45+1.20.1.jar",
-            "MD5": "c1bb644b86a0231f7b51f486ea8bab0b"
-          }
-        },
-        {
-          "id": "dev.su5ed.sinytra:connectorextras:1.11.2+1.20.1@jar",
-          "name": "Connector Extras",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 182464,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/ConnectorExtras-1.11.2+1.20.1.jar",
-            "MD5": "6a79978270b2aa5ddc42c2be4f4d73a7"
-          }
-        },
-        {
           "id": "net.blay09.mods:cookingforblockheads:16.0.6@jar",
           "name": "CookingForBlockheads",
           "type": "ForgeMod",
@@ -910,16 +890,6 @@
             "size": 71441,
             "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/entityculling-forge-1.7.0-mc1.20.1.jar",
             "MD5": "972ecec86e34cf5e2172c15e6e68119b"
-          }
-        },
-        {
-          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.2+1.11.8+1.20.1@jar",
-          "name": "Forgified Fabric API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3041071,
-            "url": "https://raw.githubusercontent.com/Kali0712/RPGServer-distro/main/servers/RPGServer-1.20.1/forgemods/required/fabric-api-0.92.2+1.11.8+1.20.1.jar",
-            "MD5": "7217481b8e9f40ac27273c1b5df0feb3"
           }
         },
         {
